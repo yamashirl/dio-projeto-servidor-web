@@ -16,7 +16,7 @@ echo "Removendo pacote que não será mais utilizado"
 apt-get remove unzip -y
 
 echo "Configurando site"
-cd /var/www/http
+cd /var/www/html
 rm index.html
 cp -r /tmp/linux-site-dio-main/* .
 
