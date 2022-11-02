@@ -3,6 +3,8 @@
 echo "Adicionando variável NEEDRESTART_MODE para"
 echo "automaticamente reiniciar serviços"
 export NEEDRESTART_MODE=a
+# Fonte:
+# https://askubuntu.com/questions/1367139/apt-get-upgrade-auto-restart-services/1431746#1431746
 
 echo "Atualizando sistema"
 apt-get update -y
