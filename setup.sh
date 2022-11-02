@@ -1,5 +1,9 @@
 #/bin/bash
 
+echo "Adicionando variável NEEDRESTART_MODE para"
+echo "automaticamente reiniciar serviços"
+export NEEDRESTART_MODE=a
+
 echo "Atualizando sistema"
 apt-get update -y
 apt-get upgrade -y
